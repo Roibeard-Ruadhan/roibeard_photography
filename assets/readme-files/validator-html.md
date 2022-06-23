@@ -1,0 +1,5 @@
+[-HTML:No errors were returned when passing through the official](assets/validator-testing/html/about-page-val.png)
+[-HTML:No errors were returned when passing through the official](assets/validator-testing/html/blog-val.png)
+[-HTML:No errors were returned when passing through the official](assets/validator-testing/html/contact-page-val.png)
+[-HTML:No errors were returned when passing through the official](assets/validator-testing/html/home-html-val.png)
+[-HTML:No errors were returned when passing through the official](assets/validator-testing/html/portfolio-val.png)

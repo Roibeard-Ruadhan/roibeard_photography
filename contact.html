@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photography page. Including the benifits of meditation in this field">
+    <meta name="keywords" content="photography, meditation, mindfullness, intuition, stillness, camera, pictures, images">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon-cam.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Roibeard Ruadhan Photography</title>
+</head>
+<body class="contact-container">
+    <div id="background-image">
+        <!--Hamburger Menu- Code adapted from Erik Terwan @  https://codepen.io/erikterwan/pres/grOZxx-->
+        <nav>
+          <div id="menuToggle">
+            <!--A hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
+            <input type="checkbox" />
+            <!--Some spans to act as a hamburger, placed on the top right if the page-->
+             <span></span>
+             <span></span>
+             <span></span>
+             <!-- Menu for all pages inside the hamburger-->
+              <ul id="menu"> 
+                  <li><a href="home.html" aria-label="Click here to go to the Home Page">HOME</a>
+                  </li>
+                  <li><a href="portfolio.html" aria-label="Click here to go to the Portfolio Page">PORTFOLIO</a>
+                  </li>
+                  <li><a href="blog.html" aria-label="Click here to go to the Blog Page">BLOG</a>
+                  </li>
+                  <li><a href="about.html" aria-label="Click here to go to the About Page">ABOUT</a>
+                  </li>
+                  <li><a href="contact.html" aria-label="Click here to go to the Contact Page" class="active">CONTACT</a>
+                  </li>
+              </ul>
+          </div>
+        </nav>
+      <!-- Header for this page -->
+        <header id="page-header-c"><h1>CONTACT</h1></header> 
+        <!--Contact table adapted from David Fitas @ https://www.jotform.com/blog/20-code-snippets-contact-forms-98615/-->
+        <div id="c-container">
+          <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">     
+            <input name="name" type="text" class="feedback-input" placeholder="Name" required>  
+            <input name="email" type="text" class="feedback-input" placeholder="Email" required>
+            <!--Radio button for form- Need to adjust name, value etc -->
+            <h3>Please select your favourite type of photography:</h3>
+            <input type="radio" id="age1" name="age" value="30">
+            <label for="age1"><strong>Landscape</strong></label><br>
+            <input type="radio" id="age2" name="age" value="60">
+            <label for="age2"><strong>Potrait</strong></label><br>  
+            <input type="radio" id="age3" name="age" value="100">
+            <label for="age3"><strong>Other</strong></label><br><br>
+            
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            
+            <input type="submit" value="SUBMIT"/>
+          </form>
+        </div>
+      </div>
+<footer class="social-networks">
+    <!--social media links-->
+        <a href="https://www.instagram.com/roibeard_ruadhan/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find me on Facebook (link opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find me on Twitter (link opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+</footer>   
+<!-- font awesome kit -->
+<script src="https://kit.fontawesome.com/0cdb403b66.js" crossorigin="anonymous"></script>
+</body>
+</html>

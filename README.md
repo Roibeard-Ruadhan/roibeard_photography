@@ -1,108 +1,122 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Roibéard Ruadhán Photography
 
-Welcome USER_NAME,
+The purpose of this website is a way to share the benefits I have found with linking my two loves of meditation & most recently photography. It is a hybrid website with the mission to share my learnings of both photography & meditation, along with how they are both intertwined. I also get to share a portfolio of my most recent images which I will be updating over time. 
+I am far from a professional in either area but when they are linked together I feel I can offer value through sharing my experiences of the complimentary benefits of meditation to photography & vice versa.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website hopes to build on every aspect of the page after recently getting a new camera to capture more distinct images to constantly build on the foundation set. Also to try to add real value to anybody who enters the page by updating the Blog with relevant & hopefully inspiring information. 
+### Live Prototype Demo
+[Live link here](https://roibeard-ruadhan.github.io/Roibeard-Ruadhan-Photography/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### UX Choices
+![Roibéard Ruadhán Photography](assets/readme-files/responsive-image.png) 
 
-## Gitpod Reminders
+### The Introductory page
+The Introductory page was set up to develop an atmosphere of intrigue & somewhat excitement before entering the Home page.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+If the user is coming in with an open perspective, a mood of deeper introspection of what to expect on entering, ideally this will bring more value to their visit. 
 
-`python3 -m http.server`
+### Home page
+The Home page gives a glimpse at what is ahead with a minimalist modern design bringing more emphasis to the images.
+This page leaves open options to navigate through the website via the more prescriptive Navigation images or the hamburger button on the top right of the screen.
 
-A blue button should appear to click: _Make Public_,
+### Nav bar
+Due to the importance of setting the scene for the images, the Navbar is intentionally discrete, as the aim of the page is for a minimalist & professional atmosphere. The intention is to reduce the distractions on display when scrolling through the images. 
+It is clearly visible on all pages in the top right corner & with the second option of the Nav images on the Home page.
 
-Another blue button should appear to click: _Open Browser_.
+### The logo 
+I created the logo design using Adobe-Spark logo creator, which I found matched the character I was looking to create for the logo image.  
+I wanted to keep the logo clear & unobtrusive so the images stand out above all.
+I used the font in the image as the standard font for all the content to add consistency & a professional touch to catch the eye.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### The footer
+Use of Font Awesome icons without text display a contemporary, minimalist platform for social links.
+Added a direct link to my Instagram account to allow users' to connect & to view other parts of my portfolio not on the website.
 
-A blue button should appear to click: _Make Public_,
+### Portfolio 
+The 3-page portfolio is all contained within a plain white background which draws the users' attention to the images. The plain background also allows the images full expression without any external distractions.
+The images when clicked open up into a window for scanning through the images one by one using bootstrap.
 
-Another blue button should appear to click: _Open Browser_.
+The page menu was added for ease of access through the portfolio without interfering with the menu.
+The colour of the menu is one of my favourite colours Cyan(colour of the ocean), which is the only other colour used on the website which is not a variant of black or white. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### About
+The About page gave me the opportunity to share what attracted me to photography & also share my love of wild-life & nature with images I have taken. 
+Shares two images of me of one with my camera & another capturing the sun over the Himalayas from my travels.
 
-To log into the Heroku toolbelt CLI:
+### Blog
+The blog page is where I get the opportunity to share my learnings from my experience of using meditation to enhance my enjoyment of photography & vice versa.
+### Contact
+Contains a minimalist submission form that also uses the radio button to query the users' photography interests.
+The background image's intention is to set a welcoming atmosphere to invite users' to get in contact.
+## Testing
+Detail test of all features to assure they are working
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Validator Testing
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![-HTML:No errors were returned when passing through the official](assets/validator-testing/image/portfolio-val.png)
 
-------
+![-CSS:No errors were returned when passing through the official](assets/readme-files/css-val.png)
 
-## Release History
+## Image Compression
+I used TinyPNG to compress all of the images on the website to reduce the lag time when loading the page. 
+According to Gtmetrix, the reduction in image size allowed the pages to load in 904ms.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### User Stories 
+As a user, I would like the opportunity to see the portfolio of other photographers 
+As a user, I would like to learn about different techniques I could use to improve my photography.
+As a user, I would like the opportunity to scroll portfolio's through to find images I could frame in my house.
+As a user, I would like to get in touch with a photographer to possibly capture an event.
+As a user, I would like to learn more about meditation & how it intertwines in many complementary ways with photography.
+As a user, I will enjoy watching how the images on the website improve over time & experience with each new shot that is taken.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Testing
+I completed many online tests to check the over all performance of the website using various online tools like GTMetrix 
+ ![GTMetrix Performance Report](assets/readme-files/gtmetrix-speed-test.png) 
+When I obtained the results I would review where I can boost performance & do a comparison test after making the required changes
+![GTMetrix Performance Report 2](assets/readme-files/gtmetrix-speed-test.png)
+Comparing performance for before & after changes
+![GTMetrix Performance Report 3](assets/readme-files/compare-performance.png)
+![GTMetrix Performance Report 4](assets/readme-files/gtmetrix-grade.png)
+Constantly using dev tools on google & various other browsers to test new code.
+I also sent the deployed webpage to various people who did user testing for me & I made sure to let them know that critical responses were very welcome & appreciated. I made many changes after receiving excellent & often critical feedback, in the knowledge that I can not see it from the users' viewpoint through the process of building it. I also received some complimentory feedback which really helped with the process of key area's I can improve further.  
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Functions/ Features
+- On entering the website via the Introduction page, I used the CSS animation with keyframes to create a vibrant transition between several images. Although I was advised by a user that this does not function as well on Firefox, not recognising the transition, it does create a
+nice slideshow.
+- Due to the large size of the majority of my images above 5mb's, it was a challnge to make a functioning gallery. With the advice & direction of my Mentor I looked into options which allowed me to shrink my images down to a thumbnail size. This allowed me to use limited data
+on page loading. I then linked the thumbnail images to the larger images in my assets folder. When the images are clicked they pop out & give the
+options to scroll, swipe, expand & play. I used limited/basic Javascript to allow the functiong of the lightbox. 
+- Nav images in the home page to link to all pages as a second option to the hamburger button.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Checking Responsiveness
+I used google inspect primaraly to inspect how each the device responded on every page. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+When sending to for user testing, I requested them to check on phone/laptop/ipad etc. I received a certain feedback from one person who checked on every browser where I was advised that Firefox browser in particular reacted differently to various functions. The main issue was the on the index.html Instroduction page the images instead of gradually transitioning every 6 seconds, they would slide across the the screen every 6 seconds.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Bugs & other observations
+[Click here for further details on bugs & general observations](/assets/readme-files/bugs-other.md)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Deployment
+The site was deployed using GitHub pages. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Clicked into the Github repository, navigate to the settings tab.
+Scroll down to Github pages & click into the new tab.
+Click on the tab under Source, select Master branch & click save. 
+As soon as the above is complete the deployed page url will appear on above Source & it will turn green when it is ready.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Ackowledgments
+My Mentor Felipe Souza Alarcon for all his support & the information he supplied to help turn mbs full of images into a functioning website.
+Kasia for her neverending calming support & endless supply of great information. 
+The Tutor, Mentor & Student care teams for putting up with me.
+Last but not least all the slackers on Slack for happily assisting a newbie with any random quieries I might have 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
