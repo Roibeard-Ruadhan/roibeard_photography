@@ -72,8 +72,8 @@ a {
 
 #logo img[src="assets/images/logo_small.Jpg"] {
     color: rgb(255, 255, 255);
-    width: 75%;
-    max-height: 15rem;
+    width: 65%;
+    max-height: 13rem;
     position: relative;
     object-fit: contain;
     object-position: 50% 50%;
@@ -81,7 +81,22 @@ a {
     margin: 1rem;
     justify-content: center;
     align-items: center;
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
 
 
 /*style button on Entry Page */
@@ -142,6 +157,9 @@ ol li a {
 
 ol li a:hover {
     background-color: rgb(255, 255, 255);
+    color: #000000;
+    text-decoration: none;
+    
 }
 
 /* Footer */
