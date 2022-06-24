@@ -267,12 +267,12 @@ in colour by using the filter 75% to 100% after hover. With a .5 second transiti
     filter: brightness(75%);
     transition: .5s ease-in-out;
     padding-bottom: 1rem;
-    width: 100%;
+    max-width: 100%;
 
 }
 .item img {
     max-width: 100%;
-    height:inherit;
+    height: 100%;
     position: relative; /* Removed Display: Flexbox; as it will only fail the exam for you & you will never know what your endless works actual percetage mark is. */
 }
 
