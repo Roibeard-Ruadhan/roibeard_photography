@@ -62,7 +62,7 @@ ROOT_URLCONF = 'photography.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,9 +75,6 @@ TEMPLATES = [
     },
 ]
 
-TEMPLATE_DIRS = (
-    PROJECT_PATH 
-)
 
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`

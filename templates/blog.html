@@ -1,46 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Photography page. Including the benifits of meditation in this field">
-    <meta name="keywords" content="photography, meditation, mindfullness, intuition, stillness, camera, pictures, images">
-    <link rel="shortcut icon" type="image/png" href="assets/images/favicon-cam.png">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <title>Roibeard Ruadhan Photography</title>
-</head>
-<body>
-    <section>
-        <div class="blog-container">
-            <!--Hamburger Menu- Code adapted from Erik Terwan @  https://codepen.io/erikterwan/pres/grOZxx-->
-            <nav>
-                <div id="menuToggle">
-                  <!--A hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
-                  <input type="checkbox" />
-                  <!--Some spans to act as a hamburger, placed on the top right if the page-->
-                   <span></span>
-                   <span></span>
-                   <span></span>
-                   <!-- Menu for all pages inside the hamburger-->
-                    <ul id="menu"> 
-                        <li><a href="home.html" aria-label="Click here to go to the Home Page">HOME</a>
-                        </li>
-                        <li><a href="portfolio.html" aria-label="Click here to go to the Portfolio Page">PORTFOLIO</a>
-                        </li>
-                        <li><a href="blog.html" aria-label="Click here to go to the Blog Page" class="active">BLOG</a>
-                        </li>
-                        <li><a href="about.html" aria-label="Click here to go to the About Page">ABOUT</a>
-                        </li>
-                        <li><a href="contact.html" aria-label="Click here to go to the Contact Page">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <!-- Logo image as main Header -->
-            <header id="logo" class="main-header"><a href="home.html"><img src="assets/images/logo_small.Jpg" alt="Website logo"></a></header>
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
             <!-- Header for this page -->
             <header id="page-header"><h1>BLOG</h1></header>
             <!--First blog for this website detailing benifits of meditation for photography & vice versa-->
@@ -91,31 +51,5 @@
             </div>
         </div>
     </section>
-    <div class="footer-basic">
-        <footer>
-            <div class="social"><a href="https://www.instagram.com/roibeard_ruadhan/"><i class="icon ion-social-instagram" target="_blank"></i></a>
-                <a href="https://www.twitter.com"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com"><i class="icon ion-social-facebook"></i></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="home.html">Home</a></li>
-                <li class="list-inline-item"><a href="portfolio.html">Portfolio</a></li>
-                <li class="list-inline-item"><a href="blog.html">Blog</a></li>
-                <li class="list-inline-item"><a href="about.html">About</a></li>
-                <li class="list-inline-item"><a href="contact.html">Contact</a></li>
-            </ul>
-            <!-- Copyrights -->
-      <div class="text-center justify-content-center">
-        <div>
-          <p class="text-muted mb-0 py-2">© 2022 Roibéard_Ruadhán All rights reserved.</p>
-        </div>
-      </div>
-        </footer>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script> 
-    
-    <!-- font awesome kit -->
-    
-    <script src="https://kit.fontawesome.com/0cdb403b66.js" crossorigin="anonymous"></script>
-</body>
-</html>
+{%endblock%}
     
